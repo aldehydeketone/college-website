@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    text-decoration:none;
+}
+*{
+    list-style-type:none;
 }
 
 /* Header */
@@ -12,6 +16,10 @@ header {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px 0;
+}
+.logo img{
+    border-radius:50%;
+    margin-bottom:1rem;
 }
 
 /* Navigation Menu */
@@ -50,7 +58,7 @@ nav ul li a:hover {
 }
 .carousel-item img{
     border-radius:1.2rem;
-
+   height:40rem;
 }
 
 .carousel-slide {
@@ -140,5 +148,24 @@ footer {
 img.displaySlide {
     display: block;
 }
+.latest-news ul li img{
+ width:25rem;
+ height:20rem;
+ border-radius:1rem;
+}
+.latest-news ul {
+    display:flex;
+    justify-content:space-between;
+}
+.latest-news h3{
+    margin-left:7.5rem;
+}
+.latest-news .description{
+    margin-top:1rem;
+    font-size:1rem;
+ margin-left:0.2rem;
+ width:25rem;
+ font-family:"Poppins", sans-serif;
 
+}
  
